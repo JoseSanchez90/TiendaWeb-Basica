@@ -1,0 +1,161 @@
+* {
+    font-family: 'Silkscreen', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+}
+/* @font-face {
+    font-family: 'Ubuntu-bold';
+    src: url(font/Ubuntu-Bold.ttf);
+} */
+nav {
+    background-color: rgb(250, 107, 131);
+    font-size: 10;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+/* div {
+    padding: 40px; 
+    width: 2160px; 
+    height: 1272px;
+
+} */
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    background: pink;
+    padding: 10px 100px 10px 100px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.cuadrito{
+    color: rgb(248, 93, 119);
+}
+a:hover {
+    color: black;
+}
+/* section {
+    background-image: url();
+    background-size: contain;
+    padding: 200px;
+} */
+.click {
+    border-radius: 20px;
+    /* padding: 20px; */
+    background-color: rgb(255, 208, 179);
+    cursor: pointer;
+    border: none;
+    box-shadow: 10px 10px 5px #888;
+}
+button:hover {
+    background-color: rgb(243, 190, 198);
+}
+.lista{
+    color: white;
+    margin: 10px;
+}
+.logo{
+    text-align: center;
+    padding: 40px;
+}
+.catalogo {
+    background-image: url(/img/portada.png);
+    /* width: 845px; Ancho máximo del contenedor */
+    height: 427px; /* Altura máxima del contenedor */
+    overflow: hidden;
+    /* background-size: cover; Ajusta la imagen para cubrir el contenedor sin distorsión */
+    border-radius: 20px;
+}
+.sub-catalogo{
+    padding-top: 70px;
+    padding-left: 50px;
+}
+h1{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 45px;
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    color: transparent;
+    
+}
+p{
+    font-family: 'Silkscreen', sans-serif;
+    color:rgb(197, 52, 77);
+    /* width: 600px; */
+    /* padding: 20px; */
+}
+.boton{
+    padding: 0px 20px 0px 20px;
+    font-size: 15px;
+    color: rgb(197, 52, 77);
+}
+.tejidos-general{
+    padding: 80px 90px;
+}
+h2{
+    font-family: 'Silkscreen', sans-serif;
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.concepto{
+    /* display: flex; */
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    /* padding: 10px; */
+}
+.diseño{
+    text-align: center;
+}
+.dedos{
+    width: 300px;
+    height: 300px;
+    margin: 40px 30px;
+    /* margin: 20px 50px; */
+    border: 5px solid rgb(255, 123, 145);
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px #888;
+}
+.cerdo{
+    width: 300px;
+    height: 300px;
+    margin: 40px 30px;
+    /* margin: 20px 50px; */
+    border: 5px solid rgb(255, 123, 145);
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px #888;
+}
+/* .concepto-palta{
+    margin: 20px 50px;
+    text-align: center;
+} */
+.footer{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.pie{
+    color: white;
+}
+.portada-palta{
+    width: 500px;
+    height: 500px;
+    margin: 40px 30px;
+    /* margin: 20px 50px; */
+    box-shadow: 15px 15px 10px #494949;
+    border-radius: 50%;
+}
+.separado{
+    margin-bottom: 0;
+}
